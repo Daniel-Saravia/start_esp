@@ -1,0 +1,34 @@
+# Ignore build directories and output files
+build/
+*.o
+*.out
+*.bin
+*.elf
+*.hex
+*.map
+
+# Ignore SDK configuration files
+sdkconfig
+sdkconfig.*
+!sdkconfig.defaults
+
+# Python cache files and test artifacts
+__pycache__/
+*.pyc
+*.pyo
+pytest_cache/
+*.pytest_cache/
+
+# CMake files
+CMakeLists.txt.user
+
+# Editor and IDE specific files
+*.vscode/
+*.idea/
+*.swp
+*.swo
+.DS_Store
+
+# System files
+Thumbs.db
+
